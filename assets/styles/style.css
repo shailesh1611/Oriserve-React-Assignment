@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    position:fixed;
+    width: 100vw;
+    top: 0;
+    overflow: hidden;
+    /* height: 20vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(37,139,232);
+    background: linear-gradient(90deg, rgba(37,139,232,1) 6%, rgba(84,222,23,1) 66%, rgba(0,212,255,1) 94%);
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    z-index: 1;
+}
+
+/*Search box styling*/
+.search_box {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+}
+
+.input_box {
+    width: 50vw;
+    height: 6vh;
+    margin: 10px;
+    border-color: black;
+    padding-left: 5px;
+}
+
+.btn_search {
+    height: 6vh;
+    padding: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* body styling */
+
+.img_body {
+    height: 200px;
+    margin: 24px;
+    border: solid black 2px;
+}
+
+.card:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.img_container {
+    margin: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shimmer_card {
+    background-color: lightgray;
+    height: 200px;
+    width: 200px;
+    margin: 24px;
+    border: solid black 1px;
+}
+
+.shimmer_container {
+    margin: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* preview styling */
+
+.preview_popup {
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+

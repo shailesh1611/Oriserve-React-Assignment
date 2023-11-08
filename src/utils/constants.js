@@ -1,0 +1,2 @@
+export const API_URL = "https://www.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=4d2d58f97c9909aaa4deaa0946f68689&per_page=24&safe_search=1&format=json&nojsoncallback=1"
+export const SEARCH_URL = "https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=4d2d58f97c9909aaa4deaa0946f68689&per_page=24&format=json&nojsoncallback=1";
